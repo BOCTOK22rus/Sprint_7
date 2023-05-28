@@ -1,0 +1,14 @@
+{
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "address": "Сокольническая Площадь 4А",
+  "metroStation": "Сокольники",
+  "phone": "89000000000",
+  "rentTime": 2,
+  "deliveryDate": "2023-05-28",
+  "comment": "10-й этаж",
+  "color": [
+    "GREY",
+    "BLACK"
+  ]
+}
