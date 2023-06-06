@@ -21,10 +21,10 @@ public class CreateOrdersTest {
     @Parameterized.Parameters
     public static List<Object[]> getData() {
         return Arrays.asList(new Object[][]{
-                {"src/test/java/TestData/resources/BlackColors.json"},
-                {"src/test/java/TestData/resources/GreyColors.json"},
-                {"src/test/java/TestData/resources/NotColors.json"},
-                {"src/test/java/TestData/resources/TwoColors.json"}
+                {"src/test/java/data/resources/BlackColors.json"},
+                {"src/test/java/data/resources/GreyColors.json"},
+                {"src/test/java/data/resources/NotColors.json"},
+                {"src/test/java/data/resources/TwoColors.json"}
         });
     }
 
