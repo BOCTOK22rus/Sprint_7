@@ -4,13 +4,13 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import testData.compare.CompareResponse;
-import testData.orders.OrdersClient;
+import data.compare.CompareResponse;
+import data.orders.OrdersClient;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static testData.Constants.*;
+import static data.Constants.*;
 
 @RunWith(Parameterized.class)
 public class CreateOrdersTest {

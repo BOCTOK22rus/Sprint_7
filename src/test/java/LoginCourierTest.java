@@ -3,10 +3,10 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
-import testData.compare.CompareResponse;
-import testData.courier.CourierClient;
+import data.compare.CompareResponse;
+import data.courier.CourierClient;
 
-import static testData.Constants.*;
+import static data.Constants.*;
 
 public class LoginCourierTest {
 

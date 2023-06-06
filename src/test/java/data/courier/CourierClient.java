@@ -1,13 +1,13 @@
-package testData.courier;
+package data.courier;
 
 import io.restassured.response.Response;
-import testData.RequestSpec;
-import testData.courier.data.Courier;
-import testData.courier.data.Login;
+import data.RequestSpec;
+import data.courier.data.Courier;
+import data.courier.data.Login;
 
-import static testData.Constants.CREATE_COURIER;
+import static data.Constants.CREATE_COURIER;
 import static io.restassured.RestAssured.given;
-import static testData.Constants.LOGIN_COURIER;
+import static data.Constants.LOGIN_COURIER;
 
 public class CourierClient extends RequestSpec {
 
