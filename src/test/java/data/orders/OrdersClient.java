@@ -1,14 +1,13 @@
-package testData.orders;
+package data.orders;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import testData.RequestSpec;
+import data.RequestSpec;
 
 import java.io.File;
 
 import static io.restassured.RestAssured.given;
-import static testData.Constants.CANCEL_ORDERS;
-import static testData.Constants.URL_ORDERS;
+import static data.Constants.CANCEL_ORDERS;
+import static data.Constants.URL_ORDERS;
 
 public class OrdersClient extends RequestSpec {
 

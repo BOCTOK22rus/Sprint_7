@@ -1,4 +1,4 @@
-package testData.compare;
+package data.compare;
 
 import io.restassured.response.Response;
 

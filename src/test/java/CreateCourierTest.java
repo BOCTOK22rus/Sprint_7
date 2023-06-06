@@ -1,12 +1,12 @@
 import org.apache.commons.lang3.RandomStringUtils;
-import testData.compare.CompareResponse;
-import testData.courier.CourierClient;
+import data.compare.CompareResponse;
+import data.courier.CourierClient;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.*;
 
-import static testData.Constants.*;
+import static data.Constants.*;
 
 public class CreateCourierTest {
 

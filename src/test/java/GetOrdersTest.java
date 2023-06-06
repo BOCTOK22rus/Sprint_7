@@ -2,10 +2,10 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.Test;
-import testData.compare.CompareResponse;
-import testData.orders.OrdersClient;
+import data.compare.CompareResponse;
+import data.orders.OrdersClient;
 
-import static testData.Constants.*;
+import static data.Constants.*;
 
 public class GetOrdersTest {
 
