@@ -9,7 +9,7 @@ import static data.Constants.*;
 
 public class GetOrdersTest {
 
-    private static final String pathFile = "src/test/java/TestData/resources/TwoColors.json";
+    private static final String pathFile = "src/test/java/data/resources/TwoColors.json";
 
     @Test
     @DisplayName("Check Get All Orders")
